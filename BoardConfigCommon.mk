@@ -48,6 +48,9 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# Broken rules
+BUILD_BROKEN_DUP_RULES := true
+
 # Display
 TARGET_SCREEN_DENSITY ?= 440
 
